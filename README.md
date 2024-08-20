@@ -1,4 +1,5 @@
-
+# ⚠️ IMPORTANT ⚠️
+This is a personal fork of the "NodeJs Client Library for VisualVault" with several modifications. To ensure you are receiving the latest updates, [set up the main repository as an upstream repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork#syncing-a-fork-branch-from-the-command-line) and merge regularly.
 
 NodeJs Client Library for VisualVault
 =====================================
