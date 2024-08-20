@@ -154,7 +154,7 @@ $RECYCLE.BIN/
 .DS_Store
 
 # local nodeJS dev
-.vscode
+# .vscode # commented out because personal repo
 node_modules/
 lib/VVRestApi/VVRestApiNodeJS/node_modules/
 lib/VVRestApi/VVRestApiNodeJS/files
