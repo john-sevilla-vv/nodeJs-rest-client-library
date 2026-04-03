@@ -7,7 +7,7 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Debug Microservice",
+      "name": "Debug Microservice 'TestWebSvc.js'",
       "program": "${workspaceRoot}/lib/VVRestApi/VVRestApiNodeJs/app.js"
     },
   ]
