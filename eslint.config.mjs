@@ -29,17 +29,14 @@ export default [
       'no-unused-vars': 'warn',
       'no-unsafe-finally': 'warn',
 
-      // 14.18.0 as noted in nodeJs-rest-client-library (VV rest client lib)
+      // No longer need "version" property now that package.json has an "engines" definition
       "n/no-unsupported-features/es-builtins": ["error", {
-        "version": "14.18.0",
         "ignores": []
       }],
       "n/no-unsupported-features/es-syntax": ["error", {
-        "version": "14.18.0",
         "ignores": []
       }],
       "n/no-unsupported-features/node-builtins": ["error", {
-        "version": "14.18.0",
         "ignores": []
       }],
     }
