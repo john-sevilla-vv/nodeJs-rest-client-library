@@ -5,13 +5,16 @@
 ApiUri: /api/v1/{custalias}/{custdbalias}
 FormsApiUri: /api/v1
 DocApiUri: /api/v1
+NotificationsApiUri: /api/v1
 AutheticateUri: /OAuth/Token
 
 # VisualVault endpoints
 ResourceUri:
   ConfigurationDocApi: /configuration/docapi
   ConfigurationFormsApi: /configuration/formsapi
+  ConfigurationObjectsApi: /configuration/objectsapi
   ConfigurationStudioApi: /configuration/studioapi
+  ConfigurationNotificationApi: /configuration/notificationapi
   DocumentsPost: /documents
   DocumentsId: /documents/{id}
   DocumentsIdCopy: /documents/{id}/copy
@@ -36,6 +39,7 @@ ResourceUri:
   FormInstanceRelatedForms: /forminstance/{id}/forms
   FormInstanceUpdateOriginator: /forminstance/{id}/updateOriginator
   FormDesignerFormsTemplatesIdFields: /formdesigner/forms/formtemplates/{id}/fields
+  FormInstanceImage: /FormEntity/{id}/setFieldImage
   Sites: /sites
   ChangeUserSite: /sites/changeusersite
   User: /users
@@ -49,6 +53,7 @@ ResourceUri:
   UserDelete: /customerdatabase/{databaseId}/deleteuser/{authenticationUserId}
   UsersPassword: /users/{id}/password
   UsersIdUserId: /users/{id}/userId
+  UsersMe: /users/me
   GetGroups: /groups
   Groups: /sites/{id}/groups
   GroupsUsers: /groups/{id}/users
@@ -75,6 +80,7 @@ ResourceUri:
   CustomerAssignUser: /customer/{customerId}/assignuser
   CustomerDatabaseAssignUser: /customerdatabase/{databaseId}/assignuser
   IndexFields: /indexfields
+  IndexFieldsFolder: /indexfields/{id}/folders/{folderId}
   OutsideProcesses: /outsideprocesses
   SecurityMembers: /securitymembers
   Layout: /layout
@@ -85,7 +91,14 @@ ResourceUri:
     AdvancedSearch: /Search/Advanced
   FormsApi:
     FormInstance: /forminstance
+  ObjectsApi:
+    Models: /models
+    ModelById: /models/{id}
+    Object: /object
+    ObjectById: /object/{id}
+    ObjectSearchByModelId: /object/search/{modelId}
   StudioApi:
+    ResourceUserFeatures: /resources/userFeatures
     WorkflowLatestPublished: /workflows/latest/published
     WorkflowLatestPublishedId: /workflows/latest/published/{id}
     WorkflowVariables: /workflows/{id}/variables
@@ -93,3 +106,5 @@ ResourceUri:
     WorkflowTerminate: /workflows/{workflowId}/instances/{instanceId}/complete
     WorkflowHistoryObject: /workflowhistories/{workflowId}/objects/{objectId}
     WorkflowHistoryRunningObject: /workflowhistories/{workflowId}/objects/{objectId}/running
+  NotificationsApi:
+    ForceUIRefresh: /Users/{id}/ForceUIRefresh
