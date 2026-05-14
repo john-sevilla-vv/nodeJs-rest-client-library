@@ -2,6 +2,10 @@
 This is a personal fork of the "NodeJs Client Library for VisualVault" with several modifications. To ensure you are receiving the latest updates, [set up the main repository as an upstream repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork#syncing-a-fork-branch-from-the-command-line) and merge regularly.
 # visualvault-api
 
+![Notice: npm package moved](https://img.shields.io/badge/npm%20package-moved-orange)
+
+> The `visualvault-api` npm package source code has moved to [vv-rest-api-node](https://github.com/VisualVault/vv-rest-api-node). All future package updates, issues, and pull requests should be directed there. The API wrapper code will be removed from this repository in a future update, and this repo will continue to serve as the source for the VisualVault server code.
+
 A Node.js client library that provides convenient access to the VisualVault REST API for server-side applications.
 
 ## Installation
